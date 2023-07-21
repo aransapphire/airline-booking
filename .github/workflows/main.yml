@@ -1,3 +1,9 @@
+name: default
+
+on:
+  push
+
+jobs:
 deploy:
     name: Deploy
     runs-on: ubuntu-latest
